@@ -37,6 +37,17 @@ sudo apt-get install neovim
 
 # Install ripgrep
 sudo apt-get install ripgrep
+
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+brew install eza
+brew install zoxide
+brew install tmux
+brew install bash
+brew install node
 ```
 
 ## Setup
