@@ -48,9 +48,7 @@ cd ~/dotfiles
 3. Use `stow` to create symlinks for the configuration files:
 
 ```sh
-stow alacritty
-stow nvim
-stow ripgrep
+stow .
 ```
 
 This will create symlinks in your home directory pointing to the configuration files in the `dotfiles` repository.
