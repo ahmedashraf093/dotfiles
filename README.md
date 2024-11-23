@@ -1,5 +1,6 @@
 # Dotfiles Configuration
 
+![example](./example.png)
 This repository contains my personal configuration files (dotfiles) for various tools and applications. The setup includes configurations for `stow`, `alacritty`, `nvim`, and `ripgrep`.
 
 ## Prerequisites
