@@ -19,6 +19,13 @@ You can install the required tools using the following commands:
 # Install stow
 sudo apt-get install stow
 
+# Install zsh
+sudo apt-get install zsh
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#
 # Install alacritty
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt-get update
@@ -70,5 +77,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Happy coding!
-
-
