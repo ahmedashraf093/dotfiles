@@ -43,7 +43,7 @@ sudo apt-get install ripgrep
 1. Clone this repository to your home directory:
 
 ```sh
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+git clone https://github.com/ahmedashraf093/dotfiles.git ~/dotfiles
 ```
 
 2. Navigate to the dotfiles directory:
