@@ -48,6 +48,17 @@ brew install zoxide
 brew install tmux
 brew install bash
 brew install node
+brew install fzf
+brew install fd
+brew install bat
+brew install git-delta
+brew install eza
+brew install tlrc
+brew install thefuck
+brew install zoxide
+
+
+
 ```
 
 ## Setup
