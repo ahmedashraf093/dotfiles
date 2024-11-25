@@ -1,12 +1,10 @@
 return {
-  "AlexvZyl/nordic.nvim",
-  lazy = false,
-  priority = 1000,
-  config = function()
-    require("nordic").setup({
-      transparent_bg = true, -- Enable transparent background
-      transparent = true,
-    })
-    require("nordic").load()
-  end,
+  {
+    "AlexvZyl/nordic.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("nordic").setup({})
+    end,
+  },
 }
