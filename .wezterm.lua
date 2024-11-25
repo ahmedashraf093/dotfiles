@@ -10,7 +10,7 @@ local config = wezterm.config_builder()
 config.color_scheme = "Dawn (terminal.sexy)"
 
 -- Set background transparency
-config.window_background_opacity = 0.96 -- Adjust the opacity value as needed (0.0 to 1.0)
+config.window_background_opacity = 0.98 -- Adjust the opacity value as needed (0.0 to 1.0)
 config.hide_mouse_cursor_when_typing = true
 config.window_padding = {
 	left = 0,
