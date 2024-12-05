@@ -22,5 +22,12 @@ config.window_padding = {
 -- Hide tabs
 config.enable_tab_bar = false
 config.window_decorations = "TITLE"
+
+-- Change selection highlight color
+config.colors = {
+	selection_fg = "black",
+	selection_bg = "yellow",
+}
+
 -- and finally, return the configuration to wezterm
 return config
