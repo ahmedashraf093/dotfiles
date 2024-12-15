@@ -1,3 +1,5 @@
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/home/ahmed/.zsh/completions:"* ]]; then export FPATH="/home/ahmed/.zsh/completions:$FPATH"; fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -123,6 +125,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:/home/ahmed/Desktop/mobile/ollin-finance/.fvm/flutter_sdk/bin"
 export PATH=$PATH:/home/ahmed/.nvm/versions/node/v20.18.0/bin
+export PATH=$PATH:/home/ahmed/.deno/bin
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
@@ -209,3 +212,4 @@ source /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # Set caps lock to escape key
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+. "/home/ahmed/.deno/env"
