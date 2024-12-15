@@ -63,4 +63,7 @@ require("lazy").setup({
     },
   },
 })
-require("flutter-tools").setup({ fvm = false })
+
+-- telescope and flutter commands
+require("flutter-tools").setup({ fvm = true })
+require("telescope").load_extension("flutter")
