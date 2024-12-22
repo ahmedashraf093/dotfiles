@@ -213,3 +213,6 @@ source /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme
 # Set caps lock to escape key
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 . "/home/ahmed/.deno/env"
+
+
+source ~/.localsh

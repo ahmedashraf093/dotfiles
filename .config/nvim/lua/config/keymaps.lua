@@ -181,15 +181,15 @@ end
 map('n', '<Tab><Tab>', require('telescope.builtin').find_files, { desc = '[S]earch [F]iles' })
 
 -- LSP
-          -- Fuzzy find all the symbols in your current workspace.
-          --  Similar to document symbols, except searches over your entire project.
+-- Fuzzy find all the symbols in your current workspace.
+--  Similar to document symbols, except searches over your entire project.
 map('n', '<leader>ws', require('telescope.builtin').lsp_dynamic_workspace_symbols, { desc = '[W]orkspace [S]ymbols'})
 
-          -- Rename the variable under your cursor.
-          --  Most Language Servers support renaming across files, etc.
+-- Rename the variable under your cursor.
+--  Most Language Servers support renaming across files, etc.
 map({'n', 'i'}, '<F2>', vim.lsp.buf.rename, {desc = '[R]e[n]ame'})
-          -- Execute a code action, usually your cursor needs to be on top of an error
-          -- or a suggestion from your LSP for this to activate.
+-- Execute a code action, usually your cursor needs to be on top of an error
+-- or a suggestion from your LSP for this to activate.
 map({'n' , 'i'}, '<F8>', vim.lsp.buf.code_action, {desc = '[C]ode [A]ction', })
 map({'n', 'i'}, '<F5>', require('telescope').extensions.flutter.commands, {    desc = 'Flutter Run'})
 map({'n', 'i'}, '<F6>', require('telescope').extensions.flutter.fvm, {    desc = 'Flutter FVM'})

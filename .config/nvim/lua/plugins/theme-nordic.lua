@@ -5,8 +5,8 @@ return {
     priority = 1000,
     config = function()
       require("nordic").setup({
-        -- transparent_bg = true, -- Enable transparent background
-        -- transparent = true,
+        transparent_bg = false, -- Enable transparent background
+        transparent = false,
       })
       require("nordic").load()
     end,
